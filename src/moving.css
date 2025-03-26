@@ -1,0 +1,24 @@
+/**
+ * This file has the classes for the animations.
+ * (please tell me if there's a better way)
+ */
+
+.move-0 {
+  transition: transform 200ms ease;
+  transform: translateY(-64px);
+}
+
+.move-1 {
+  transition: transform 200ms ease;
+  transform: translateX(-64px);
+}
+
+.move-2 {
+  transition: transform 200ms ease;
+  transform: translateY(64px);
+}
+
+.move-3 {
+  transition: transform 200ms ease;
+  transform: translateX(64px);
+}
